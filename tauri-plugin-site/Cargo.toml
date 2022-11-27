@@ -1,0 +1,16 @@
+[package]
+name = "tauri-plugin-site"
+version = "0.0.0"
+authors = [ "Till Wegmueller" ]
+description = ""
+edition = "2021"
+rust-version = "1.59"
+exclude = ["/examples", "/webview-dist", "/webview-src", "node_modules"]
+
+[dependencies]
+tauri = { version = "1.2.0" }
+serde = "1.0"
+serde_cbor = "0.11"
+thiserror = "1.0"
+sled = { version = "0.34.7", features = ["compression"] }
+sha256 = "1.1.1"

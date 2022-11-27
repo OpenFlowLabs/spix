@@ -1,0 +1,50 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.1.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "@tauri-apps/cli": "^1.1.0",
+    "@tsconfig/svelte": "^3.0.0",
+    "@types/node": "^18.7.10",
+    "@types/toastr": "^2.1.40",
+    "autoprefixer": "^10.4.13",
+    "grapesjs": "^0.20.1",
+    "grapesjs-blocks-basic": "^1.0.1",
+    "grapesjs-component-countdown": "^1.0.1",
+    "grapesjs-custom-code": "^1.0.1",
+    "grapesjs-parser-postcss": "^1.0.1",
+    "grapesjs-plugin-export": "^1.0.11",
+    "grapesjs-plugin-forms": "^2.0.5",
+    "grapesjs-preset-webpage": "^1.0.2",
+    "grapesjs-style-bg": "^1.0.5",
+    "grapesjs-tabs": "^1.0.6",
+    "grapesjs-tooltip": "^0.1.7",
+    "grapesjs-touch": "^0.1.1",
+    "grapesjs-tui-image-editor": "^1.0.1",
+    "grapesjs-typed": "^1.0.5",
+    "jquery": "^3.6.1",
+    "postcss": "^8.4.19",
+    "svelte": "^3.49.0",
+    "svelte-check": "^2.8.0",
+    "svelte-preprocess": "^4.10.7",
+    "svelte-routing": "^1.6.0",
+    "tailwindcss": "^3.2.4",
+    "tauri-plugin-site": "./tauri-plugin-site",
+    "toastr": "^2.1.4",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.2"
+  }
+}
