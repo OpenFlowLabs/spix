@@ -2,8 +2,9 @@
   import { Router, Route, navigate } from "svelte-routing";
   import Editor from "./Editor.svelte";
   import { appWindow } from "@tauri-apps/api/window";
-  import {create_site, list_sites, load_site, Site} from "tauri-plugin-site-api";
-
+  import {create_site, list_sites, load_site} from "tauri-plugin-site-api";
+  import type { Site } from 'tauri-plugin-site-api';
+  
   let sites: [string];
 
   let editor_site: Site;

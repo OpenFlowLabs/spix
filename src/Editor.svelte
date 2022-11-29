@@ -16,7 +16,8 @@
   import gjs_tui_image_editor from "grapesjs-tui-image-editor";
   import gjs_typed from "grapesjs-typed";
   import gjs_style from "grapesjs-style-bg";
-  import { load_file, save_file, Site } from "tauri-plugin-site-api";
+  import { load_file, save_file } from "tauri-plugin-site-api";
+  import type {Site} from "tauri-plugin-site-api";
 
   export let site: Site;
 
